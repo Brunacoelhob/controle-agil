@@ -35,3 +35,20 @@ Clonando o projeto
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
 
+### Requisitos Funcionais
+- **RF01:** O sistema deve permitir que o usuário se cadastre com nome, e-mail e senha.
+- **RF02:** O sistema deve permitir que o usuário faça login com e-mail e senha.
+- **RF03:** O usuário deve poder criar novas tarefas.
+- **RF04:** O usuário deve poder visualizar a lista de tarefas cadastradas.
+- **RF05:** O usuário deve poder editar o título, descrição e status de uma tarefa.
+- **RF06:** O usuário deve poder excluir tarefas.
+
+### Requisitos Não Funcionais
+- **RNF01:** O sistema deve ser acessado via navegador (interface web responsiva).
+- **RNF02:** A interface deve ser simples e intuitiva, com usabilidade acessível.
+- **RNF03:** O sistema deve armazenar os dados de forma persistente (ex: arquivos JSON ou banco de dados).
+- **RNF04:** A autenticação deve ser segura, com senha criptografada.
+- **RNF05:** O sistema deve responder às ações do usuário em até 2 segundos.
+- **RNF06:** O sistema deve funcionar corretamente nos navegadores modernos (Chrome, Firefox, Edge).
+
+
